@@ -4,7 +4,7 @@ const About = () => {
   return (
     <main className='About'>
         <h2>About</h2>
-        <p style={{marginTop:"1rem"}}>Hi, Connect to people around the world using this app.</p>
+        <p style={{marginTop:"1rem"}}>Simple Demonstration of how post creation, updation, deletion happening in the social media app.</p>
     </main>
   )
 }
