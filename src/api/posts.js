@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:3500"
+    baseURL: "https://65d1ae98987977636bfb5992.mockapi.io/socialmedia"
 })

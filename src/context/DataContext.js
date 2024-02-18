@@ -8,7 +8,7 @@ export const DataProvider = ({ children }) => {
     const [search, setSearch] = useState('');
     const [searchResults, setSearchResults] = useState([]);
 
-    const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3500/posts');
+    const { data, fetchError, isLoading } = useAxiosFetch('https://65d1ae98987977636bfb5992.mockapi.io/socialmedia');
 
     useEffect(() => {
         setPosts(data);
